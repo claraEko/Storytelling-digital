@@ -1,0 +1,35 @@
+.scroll {
+  background-image: url("../img/scroll-background.webp");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 200vh;
+  width: 100vw;
+  position: relative;
+}
+.scroll-a {
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  z-index: 30;
+}
+.scroll-b {
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+  z-index: 29;
+}
+.scroll-c {
+  position: absolute;
+  bottom: -10%;
+
+  width: 100%;
+  z-index: 28;
+}
+.scroll-d {
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+  z-index: 27;
+}
