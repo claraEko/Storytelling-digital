@@ -236,7 +236,12 @@ tl.to(".first-button", {
     ease: "none",
   })
   // scroll
-  .to(".scroll", { y: "-50%", duration: 4, ease: "power1.in" }, "-=1")
-  .to(".scroll-b", { y: "-5%", duration: 4, ease: "power1.in" }, "-=1")
-  .to(".scroll-c", { y: "-5%", duration: 4, ease: "power1.in" }, "-=3.5")
-  .to(".scroll-d", { y: "-5%", duration: 4, ease: "power1.in" }, "-=3.5");
+  .to(".scroll-e", { x: "200%", duration: 10, ease: "none" })
+  .to(".scroll", { y: "-50%", duration: 4, ease: "none" }, "-=3")
+  .to(".scroll-b", { y: "-5%", duration: 4, ease: "none" }, "-=5")
+  .to(".scroll-c", { y: "-5%", duration: 4, ease: "none" }, "-=5")
+  .to(".scroll-d", { y: "-5%", duration: 4, ease: "none" }, "-=5")
+  .to(".h-transition-1", { x: "-850px", duration: 4, ease: "none" })
+  .to(".h-transition-2", { x: "-850px", duration: 4, ease: "none" }, "-=4s")
+  .to(".h-transition-3", { x: "-850px", duration: 4, ease: "none" }, "-=4s")
+  .to(".scroll", { x: "-50%", duration: 8, ease: "none" }, "-=3s");
