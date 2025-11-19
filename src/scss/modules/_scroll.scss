@@ -7,13 +7,6 @@
   width: 100vw;
   position: relative;
 }
-.scroll-a {
-  position: absolute;
-  bottom: 0;
-  left: -100%;
-  height: 100vh;
-  z-index: 30;
-}
 .scroll-b {
   position: absolute;
   bottom: -10%;
@@ -38,24 +31,7 @@
   top: 10%;
   z-index: 26;
 }
-.h-transition-1 {
-  position: absolute;
-  bottom: 0;
-  right: -850px;
-  z-index: 30;
-}
-.h-transition-2 {
-  position: absolute;
-  bottom: 0;
-  right: -850px;
-  z-index: 32;
-}
-.h-transition-3 {
-  position: absolute;
-  bottom: 0;
-  right: -850px;
-  z-index: 33;
-}
+
 .scroll-text-1 {
   position: absolute;
   top: 100px;

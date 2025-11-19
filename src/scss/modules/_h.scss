@@ -1,0 +1,30 @@
+.h-transition-1 {
+  position: absolute;
+  bottom: 0;
+  right: -850px;
+  z-index: 30;
+}
+.h-transition-2 {
+  position: absolute;
+  bottom: 0;
+  right: -850px;
+  z-index: 32;
+}
+.h-transition-3 {
+  position: absolute;
+  bottom: 0;
+  right: -850px;
+  z-index: 33;
+}
+.h-img {
+  display: flex;
+  flex-direction: column;
+}
+.h-1 {
+  height: 200px;
+  bottom: 0px;
+  right: 0px;
+}
+.scroll-h {
+  display: flex;
+}
