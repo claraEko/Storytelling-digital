@@ -16,15 +16,26 @@
   right: -850px;
   z-index: 33;
 }
+.scroll-h {
+  display: inline flex;
+  position: absolute;
+  height: 100vh;
+  bottom: 0px;
+  right: -800px;
+}
 .h-img {
   display: flex;
   flex-direction: column;
 }
 .h-1 {
   height: 200px;
-  bottom: 0px;
-  right: 0px;
 }
-.scroll-h {
+
+.jsp {
+  position: relative;
   display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
