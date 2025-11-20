@@ -244,4 +244,5 @@ tl.to(".first-button", {
   .to(".h-transition-1", { x: "-850px", duration: 4, ease: "none" }, "-=1s")
   .to(".h-transition-2", { x: "-850px", duration: 4, ease: "none" }, "-=4s")
   .to(".h-transition-3", { x: "-850px", duration: 4, ease: "none" }, "-=4s")
-  .to(".scroll", { x: "-100%", duration: 8, ease: "none" }, "-=3s");
+  .to(".scroll", { x: "-100%", duration: 8, ease: "none" }, "-=2.7s")
+  .to(".scroll-h", { x: "-14000px", duration: 4, ease: "none" });

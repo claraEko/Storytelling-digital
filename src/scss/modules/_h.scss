@@ -1,6 +1,7 @@
 .h-transition-1 {
   position: absolute;
   bottom: 0;
+  height: 100vh;
   right: -850px;
   z-index: 30;
 }
@@ -8,34 +9,115 @@
   position: absolute;
   bottom: 0;
   right: -850px;
+  height: 100vh;
   z-index: 32;
 }
 .h-transition-3 {
   position: absolute;
   bottom: 0;
   right: -850px;
+  height: 100vh;
   z-index: 33;
 }
 .scroll-h {
   display: inline flex;
   position: absolute;
+  gap: 237px;
   height: 100vh;
   bottom: 0px;
-  right: -800px;
+  left: 120%;
 }
 .h-img {
   display: flex;
   flex-direction: column;
 }
 .h-1 {
-  height: 200px;
+  height: 57vh;
+  margin-bottom: 20vh;
 }
-
-.jsp {
+.h-2 {
+  height: 57vh;
+  margin-top: 20vh;
+}
+.h-3 {
+  height: 70vh;
+  margin-bottom: 10vh;
+}
+.h-section-1 {
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  justify-content: center;
+  gap: 237px;
   align-items: center;
+}
+.h-4 {
+  height: 92vh;
+}
+
+.h-section-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.h-5 {
+  height: 57vh;
+  margin-top: 20vh;
+}
+.h-6 {
+  height: 57vh;
+  margin-bottom: 20vh;
+}
+.h-7 {
+  height: 70vh;
+  margin-top: 10vh;
+}
+.h-8 {
+  height: 70vh;
+  margin-bottom: 10vh;
+}
+.h-section-3 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 237px;
+  align-items: center;
+}
+.h-9 {
+  height: 80vh;
+}
+.h-section-4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.h-10 {
+  height: 100vh;
+}
+.h-11 {
+  height: 100vh;
+}
+.h-11-gradiant {
+  position: absolute;
+  width: 97vh;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) -10%, #000304 99%);
+  top: 0;
+  right: 0px;
+  z-index: 34;
+}
+.h-section-5 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+}
+.h-12 {
+  height: 90vh;
+}
+.h-section-6 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 900px;
 }
