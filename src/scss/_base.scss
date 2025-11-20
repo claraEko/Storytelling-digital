@@ -16,3 +16,8 @@ video {
 body {
   background: linear-gradient(90deg, rgba(0, 0, 0, 1) 5%, #000304 50%);
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
