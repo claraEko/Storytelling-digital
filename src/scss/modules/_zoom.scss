@@ -8,6 +8,11 @@
   align-items: center;
   gap: 15px;
   z-index: 29;
+  transition: all 0.25s ease;
+}
+.first-button:hover {
+  gap: 25px;
+  bottom: calc(5% - 10px);
 }
 .button-bd {
   color: #fff;
@@ -20,11 +25,20 @@
   border-radius: 100px;
   border: 2px solid #fff;
   background-color: transparent;
+  transition: all 0.25s ease;
 }
+.button-bd:hover {
+  color: #000000;
+  border: 2px solid #fff;
+  background-color: #fff;
+  scale: 1.1;
+}
+
 .zoom {
   position: absolute;
   height: 100%;
   width: 100%;
+  pointer-events: none;
 }
 .text {
   position: absolute;
