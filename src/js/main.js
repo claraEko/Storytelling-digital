@@ -25,119 +25,175 @@ tl.to(".first-button", {
   .to(".zoom-1-a", {
     scale: 1.5,
     y: "50%",
-    duration: 5,
+    duration: 10,
     filter: "blur(5px)",
-    ease: "none",
+    ease: "power3.inOut",
   })
-  .to(".zoom-1-b", {
-    scale: 3,
-    y: "100%",
-    filter: "blur(5px)",
-    duration: 5,
-    ease: "none",
-  })
-  .to(".zoom-1-title", {
-    scale: 2,
-    y: "-100%",
-    duration: 5,
-    opacity: 0,
-    ease: "none",
-  })
-  .to(".zoom-1-background", {
-    scale: 2,
-    opacity: 0,
-    duration: 3,
-    ease: "none",
-  })
+  .to(
+    ".zoom-1-b",
+    {
+      scale: 3,
+      y: "100%",
+      filter: "blur(5px)",
+      duration: 10,
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
+  .to(
+    ".zoom-1-title",
+    {
+      scale: 2,
+      y: "-100%",
+      duration: 5,
+      opacity: 0,
+      ease: "power3.inOut",
+    },
+    "-=5"
+  )
+  .to(
+    ".zoom-1-background",
+    {
+      scale: 2,
+      opacity: 0,
+      duration: 3,
+      ease: "power3.inOut",
+    },
+    "-=3"
+  )
   // zoom-2
-  .to(".zoom-2-a", {
-    scale: 1.5,
-    y: "70%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-2-b", {
-    scale: 3,
-    y: "100%",
-    filter: "blur(5px)",
-    duration: 5,
-    ease: "none",
-  })
+  .to(
+    ".zoom-2-a",
+    {
+      scale: 1.5,
+      y: "70%",
+      duration: 10,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=1"
+  )
+  .to(
+    ".zoom-2-b",
+    {
+      scale: 3,
+      y: "100%",
+      filter: "blur(5px)",
+      duration: 10,
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
 
-  .to(".zoom-2-text", {
-    scale: 2,
-    x: "100%",
-    duration: 5,
-    opacity: 0,
-    ease: "none",
-  })
-  .to(".zoom-2-moon", {
-    scale: 2,
-    opacity: 0,
-    duration: 3,
-    ease: "none",
-  })
+  .to(
+    ".zoom-2-text",
+    {
+      scale: 2,
+      x: "100%",
+      duration: 5,
+      opacity: 0,
+      ease: "power3.inOut",
+    },
+    "-=5"
+  )
+  .to(
+    ".zoom-2-moon",
+    {
+      scale: 2,
+      opacity: 0,
+      duration: 3,
+      ease: "power3.inOut",
+    },
+    "-=5"
+  )
   .to(
     ".zoom-2-background",
     {
       scale: 2,
       opacity: 0,
       duration: 3,
-      ease: "none",
+      ease: "power3.inOut",
     },
-    "-=3"
+    "-=5"
   )
   // zoom-3
-  .to(".zoom-3-a", {
-    scale: 1.5,
-    y: "70%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-3-b", {
-    scale: 3,
-    y: "100%",
-    filter: "blur(5px)",
-    duration: 5,
-    ease: "none",
-  })
-  .to(".zoom-3-g", {
-    scale: 1.5,
-    y: "100%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-3-c", {
-    scale: 1.5,
-    y: "70%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-3-h", {
-    scale: 1.5,
-    y: "120%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-3-d", {
-    scale: 1.5,
-    y: "70%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-3-text", {
-    scale: 2,
-    x: "100%",
-    duration: 5,
-    opacity: 0,
-    ease: "none",
-  })
+  .to(
+    ".zoom-3-a",
+    {
+      scale: 1.5,
+      y: "70%",
+      duration: 10,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=1"
+  )
+  .to(
+    ".zoom-3-b",
+    {
+      scale: 3,
+      y: "100%",
+      filter: "blur(5px)",
+      duration: 10,
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
+  .to(
+    ".zoom-3-g",
+    {
+      scale: 1.5,
+      y: "100%",
+      duration: 10,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=10"
+  )
+  .to(
+    ".zoom-3-c",
+    {
+      scale: 1.5,
+      y: "70%",
+      duration: 10,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=9"
+  )
+  .to(
+    ".zoom-3-h",
+    {
+      scale: 1.5,
+      y: "120%",
+      duration: 5,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
+  .to(
+    ".zoom-3-d",
+    {
+      scale: 1.5,
+      y: "70%",
+      duration: 5,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=7"
+  )
+  .to(
+    ".zoom-3-text",
+    {
+      scale: 2,
+      x: "100%",
+      duration: 5,
+      opacity: 0,
+      ease: "power3.inOut",
+    },
+    "-=6"
+  )
   .to(
     ".zoom-3-2-text",
     {
@@ -145,38 +201,54 @@ tl.to(".first-button", {
       x: "-100%",
       duration: 5,
       opacity: 0,
-      ease: "none",
+      ease: "power3.inOut",
+    },
+    "-=6"
+  )
+  .to(
+    ".zoom-3-background",
+    {
+      scale: 2,
+      opacity: 0,
+      duration: 3,
+      ease: "power3.inOut",
     },
     "-=5"
   )
-  .to(".zoom-3-background", {
-    scale: 2,
-    opacity: 0,
-    duration: 3,
-    ease: "none",
-  })
   // zoom-4
-  .to(".zoom-4-a", {
-    scale: 1.5,
-    y: "50%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-4-b", {
-    scale: 3,
-    y: "100%",
-    filter: "blur(5px)",
-    duration: 5,
-    ease: "none",
-  })
-  .to(".zoom-4-text", {
-    scale: 2,
-    x: "100%",
-    duration: 5,
-    opacity: 0,
-    ease: "none",
-  })
+  .to(
+    ".zoom-4-a",
+    {
+      scale: 1.5,
+      y: "50%",
+      duration: 10,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=1"
+  )
+  .to(
+    ".zoom-4-b",
+    {
+      scale: 3,
+      y: "100%",
+      filter: "blur(5px)",
+      duration: 10,
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
+  .to(
+    ".zoom-4-text",
+    {
+      scale: 2,
+      x: "100%",
+      duration: 5,
+      opacity: 0,
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
   .to(
     ".zoom-4-2-text",
     {
@@ -184,39 +256,55 @@ tl.to(".first-button", {
       x: "-100%",
       duration: 5,
       opacity: 0,
-      ease: "none",
+      ease: "power3.inOut",
     },
-    "-=5"
+    "-=7.5"
   )
-  .to(".zoom-4-background", {
-    scale: 2,
-    opacity: 0,
-    duration: 3,
-    ease: "none",
-  })
+  .to(
+    ".zoom-4-background",
+    {
+      scale: 2,
+      opacity: 0,
+      duration: 3,
+      ease: "power3.inOut",
+    },
+    "-=7"
+  )
 
   // zoom-5
-  .to(".zoom-5-a", {
-    scale: 1.5,
-    y: "100%",
-    duration: 5,
-    filter: "blur(5px)",
-    ease: "none",
-  })
-  .to(".zoom-5-b", {
-    scale: 3,
-    y: "100%",
-    filter: "blur(5px)",
-    duration: 5,
-    ease: "none",
-  })
-  .to(".zoom-5-text", {
-    scale: 2,
-    x: "100%",
-    duration: 5,
-    opacity: 0,
-    ease: "none",
-  })
+  .to(
+    ".zoom-5-a",
+    {
+      scale: 1.5,
+      y: "100%",
+      duration: 10,
+      filter: "blur(5px)",
+      ease: "power3.inOut",
+    },
+    "-=1"
+  )
+  .to(
+    ".zoom-5-b",
+    {
+      scale: 3,
+      y: "100%",
+      filter: "blur(5px)",
+      duration: 10,
+      ease: "power3.inOut",
+    },
+    "-=8"
+  )
+  .to(
+    ".zoom-5-text",
+    {
+      scale: 2,
+      x: "100%",
+      duration: 5,
+      opacity: 0,
+      ease: "power3.inOut",
+    },
+    "-=4"
+  )
   .to(
     ".zoom-5-2-text",
     {
@@ -224,25 +312,42 @@ tl.to(".first-button", {
       x: "100%",
       duration: 5,
       opacity: 0,
-      ease: "none",
+      ease: "power3.inOut",
     },
     "-=5"
   )
 
-  .to(".zoom-5-background", {
-    scale: 2,
-    opacity: 0,
-    duration: 3,
-    ease: "none",
-  })
+  .to(
+    ".zoom-5-background",
+    {
+      scale: 2,
+      opacity: 0,
+      duration: 3,
+      ease: "power3.inOut",
+    },
+    "-=4"
+  )
   // scroll
-  .to(".scroll-e", { x: "200%", duration: 10, ease: "none" })
-  .to(".scroll", { y: "-50%", duration: 4, ease: "none" }, "-=3")
-  .to(".scroll-b", { y: "-5%", duration: 4, ease: "none" }, "-=5")
-  .to(".scroll-c", { y: "-5%", duration: 4, ease: "none" }, "-=5")
-  .to(".scroll-d", { y: "-5%", duration: 4, ease: "none" }, "-=5")
-  .to(".h-transition-1", { x: "-850px", duration: 4, ease: "none" }, "-=1s")
-  .to(".h-transition-2", { x: "-850px", duration: 4, ease: "none" }, "-=4s")
-  .to(".h-transition-3", { x: "-850px", duration: 4, ease: "none" }, "-=4s")
-  .to(".scroll", { x: "-100%", duration: 8, ease: "none" }, "-=2.7s")
-  .to(".scroll-h", { x: "-95%", duration: 4, ease: "none" });
+  .to(".scroll-e", { x: "200%", duration: 10, ease: "slow" }, "-=1")
+  .to(".scroll", { y: "-50%", duration: 4, ease: "power3.inOut" }, "-=3")
+  .to(".scroll-b", { y: "-5%", duration: 4, ease: "power3.inOut" }, "-=5")
+  .to(".scroll-c", { y: "-5%", duration: 4, ease: "power3.inOut" }, "-=4")
+  .to(".scroll-d", { y: "-5%", duration: 4, ease: "power3.inOut" }, "-=3.5")
+  .to(".scroll", { x: "-100%", duration: 8, ease: "power3.inOut" })
+  .to(
+    ".h-transition-1",
+    { x: "-850px", duration: 4, ease: "power3.inOut" },
+    "-=8"
+  )
+  .to(
+    ".h-transition-2",
+    { x: "-850px", duration: 4, ease: "power3.inOut" },
+    "-=7.5s"
+  )
+  .to(
+    ".h-transition-3",
+    { x: "-850px", duration: 4, ease: "power3.inOut" },
+    "-=7"
+  )
+
+  .to(".scroll-h", { x: "-95%", duration: 100, ease: "slow" });
