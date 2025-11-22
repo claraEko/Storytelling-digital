@@ -14,8 +14,6 @@ var tl = gsap.timeline({
   },
 });
 
-// === Séquence d’animations ===
-// zoom-1
 tl.to(".first-button", {
   y: "200%",
   duration: 1,
@@ -61,7 +59,7 @@ tl.to(".first-button", {
     },
     "-=3"
   )
-  // zoom-2
+
   .to(
     ".zoom-2-a",
     {
@@ -116,7 +114,7 @@ tl.to(".first-button", {
     },
     "-=5"
   )
-  // zoom-3
+
   .to(
     ".zoom-3-a",
     {
@@ -215,7 +213,7 @@ tl.to(".first-button", {
     },
     "-=5"
   )
-  // zoom-4
+
   .to(
     ".zoom-4-a",
     {
@@ -271,7 +269,6 @@ tl.to(".first-button", {
     "-=7"
   )
 
-  // zoom-5
   .to(
     ".zoom-5-a",
     {
@@ -327,7 +324,7 @@ tl.to(".first-button", {
     },
     "-=4"
   )
-  // scroll
+
   .to(".scroll-e", { x: "200%", duration: 10, ease: "slow" }, "-=1")
   .to(".scroll", { y: "-50%", duration: 4, ease: "power3.inOut" }, "-=3")
   .to(".scroll-b", { y: "-5%", duration: 4, ease: "power3.inOut" }, "-=5")
